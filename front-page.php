@@ -46,7 +46,7 @@ get_header();
                     <div class="row row-cols-1 row-cols-md-3 g-2 px-5">
                         <div class=" col">
                             <div class=" card h-100">
-                                <img src="../wp-content/themes/nyeri-club/assets/img/allan-nygren--xvKQuNtOhI-unsplash.jpg"
+                                <img src="<?php echo esc_url(get_template_directory_uri() .'/img/allan-nygren--xvKQuNtOhI-unsplash.jpg')?>"
                                     class="card-img-top" alt="Skyscrapers" />
                                 <div class="card-body">
                                     <h5 class="card-title">Hole No.1</h5>
@@ -61,7 +61,7 @@ get_header();
                         </div>
                         <div class="col">
                             <div class="card h-100">
-                                <img src="../wp-content/themes/nyeri-club/assets/img/allan-nygren--xvKQuNtOhI-unsplash.jpg"
+                                <img src="<?php echo esc_url(get_template_directory_uri() .'/img/allan-nygren--xvKQuNtOhI-unsplash.jpg')?>"
                                     class="card-img-top" alt="Los Angeles Skyscrapers" />
                                 <div class="card-body">
                                     <h5 class="card-title">Hole No.2</h5>
@@ -76,7 +76,7 @@ get_header();
                         </div>
                         <div class="col">
                             <div class="card h-100">
-                                <img src="../wp-content/themes/nyeri-club/assets/img/allan-nygren--xvKQuNtOhI-unsplash.jpg"
+                                <img src="<?php echo esc_url(get_template_directory_uri() .'/img/allan-nygren--xvKQuNtOhI-unsplash.jpg')?>"
                                     class="card-img-top" alt="Palm Springs Road" />
                                 <div class="card-body">
                                     <h5 class="card-title">Hole No.3</h5>
@@ -94,7 +94,7 @@ get_header();
                 <div class="row row-cols-1 row-cols-md-3 g-2 p-5">
                     <div class=" col">
                         <div class=" card h-100">
-                            <img src="../wp-content/themes/nyeri-club/assets/img/allan-nygren--xvKQuNtOhI-unsplash.jpg"
+                            <img src="<?php echo esc_url(get_template_directory_uri() .'/img/allan-nygren--xvKQuNtOhI-unsplash.jpg')?>"
                                 class="card-img-top" alt="Skyscrapers" />
                             <div class="card-body">
                                 <h5 class="card-title">Hole No.4</h5>
@@ -109,7 +109,7 @@ get_header();
                     </div>
                     <div class="col">
                         <div class="card h-100">
-                            <img src="../wp-content/themes/nyeri-club/assets/img/allan-nygren--xvKQuNtOhI-unsplash.jpg"
+                            <img src="<?php echo esc_url(get_template_directory_uri() .'/img/allan-nygren--xvKQuNtOhI-unsplash.jpg')?>"
                                 class="card-img-top" alt="Los Angeles Skyscrapers" />
                             <div class="card-body">
                                 <h5 class="card-title">Hole No.5</h5>
