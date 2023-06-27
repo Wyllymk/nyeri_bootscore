@@ -81,7 +81,7 @@ get_header();
                                 <div class="card-body">
                                     <h5 class="card-title">Hole No.3</h5>
                                     <p class="card-text">
-                                        welcome to nyeri golf club...
+                                        welcome to nyeri Golf club...
                                     </p>
                                 </div>
                                 <div class="card-footer">
