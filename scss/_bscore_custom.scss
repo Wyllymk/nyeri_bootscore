@@ -32,19 +32,23 @@
 
 .header-1 {
   background-image: url(../img/allan-nygren--xvKQuNtOhI-unsplash.jpg);
-  min-height: 40vh;
+  min-height: 50vh;
+}
+
+
+
+.info {
+  min-height: 20vh;
+  padding-top: 3rem;
 }
 
 .info {
-  min-height: 30vh;
-  padding-top: 2rem;
-}
-
-.info > h1 {
-  text-align: center;
-  font-weight: bolder;
-  font-family: Arial, Helvetica, sans-serif;
-}
+  h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+} 
 
 .info > p {
   text-align: center;
@@ -53,8 +57,6 @@
   font-weight: bold;
 }
 
-.holes {
-}
 
 .holes > h1 {
   text-align: center;
@@ -62,17 +64,29 @@
 }
 
 .member {
-  min-height: 40vh;
+  min-height: 50vh;
   text-align: center;
   color: white;
   background-image: url(../img/allan-nygren--xvKQuNtOhI-unsplash.jpg);
-  padding-top: 200px;
+  padding-top: 250px;
 }
 
 .member > h1 {
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 .dropdown:hover .dropdown-menu {
   display: block;
+}
+
+.upcoming-events{
+
+  align-content: center;
+  padding-top: 20px;
+  min-height: 50vh;
+}
+.upcoming-events> hr{
+margin-left: 600px;
+margin-right: 600px;
+border: 1px solid #06b234fe;
 }
