@@ -1,0 +1,78 @@
+/*!
+ * bootScore custom styles
+ */
+
+// Add your own code here!
+// Because this file is compiled after Bootstrap, you're also able to use Bootstrap mixins for better code.
+// Some examples can be found here: https://bootscore.me/documentation/bootstrap-css-sass
+
+/*-----------------------------------------------------------------------------
+
+  ATTENTION! This is the parent-theme's file. Your work will be lost by the 
+  next update!
+
+  Wouldn't you prefer to use one of our child themes and be update-safe?
+
+  bootscore-child: 
+  https://github.com/bootscore/bootscore-child/archive/refs/heads/main.zip
+
+  bootcommerce-child:
+  https://github.com/bootscore/bootcommerce-child/archive/refs/heads/main.zip
+
+-----------------------------------------------------------------------------*/
+
+/* Bootstrap Menu Dropdown on hover */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+/* Times new roman class */
+.tnr {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.header-1 {
+  background-image: url(../img/allan-nygren--xvKQuNtOhI-unsplash.jpg);
+  min-height: 40vh;
+}
+
+.info {
+  min-height: 30vh;
+  padding-top: 2rem;
+}
+
+.info > h1 {
+  text-align: center;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.info > p {
+  text-align: center;
+  color: rgb(68, 127, 216);
+  font-size: larger;
+  font-weight: bold;
+}
+
+.holes {
+}
+
+.holes > h1 {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.member {
+  min-height: 40vh;
+  text-align: center;
+  color: white;
+  background-image: url(../img/allan-nygren--xvKQuNtOhI-unsplash.jpg);
+  padding-top: 200px;
+}
+
+.member > h1 {
+  padding-bottom: 20px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
