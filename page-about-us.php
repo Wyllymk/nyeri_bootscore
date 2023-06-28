@@ -23,6 +23,14 @@ get_header();
                 <main id="main" class="site-main">
 
 
+                    <header class="entry-header">
+                        <?php the_post(); ?>
+                        <h1><?php the_title(); ?></h1>
+                        <?php bootscore_post_thumbnail(); ?>
+                    </header>
+
+
+
 
                 </main>
 
