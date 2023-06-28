@@ -124,7 +124,7 @@ get_header();
                     </div>
                     <div class="col">
                         <div class="card h-100">
-                            <img src="../wp-content/themes/nyeri-club/assets/img/allan-nygren--xvKQuNtOhI-unsplash.jpg"
+                            <img src="<?php echo esc_url(get_template_directory_uri() .'/img/allan-nygren--xvKQuNtOhI-unsplash.jpg')?>"
                                 class="card-img-top" alt="Palm Springs Road" />
                             <div class="card-body">
                                 <h5 class="card-title">Hole No.6</h5>
@@ -185,7 +185,7 @@ get_header();
                     <div class="col-sm-6">
                         <div class="card">
                             <img class=" card-img" style="height: 370px;width: auto;"
-                                src=" ../wp-content/themes/nyeri-club/assets/img/allan-nygren--xvKQuNtOhI-unsplash.jpg"
+                                src=" <?php echo esc_url(get_template_directory_uri() .'/img/allan-nygren--xvKQuNtOhI-unsplash.jpg')?>"
                                 alt="Card image">
                         </div>
                     </div>
