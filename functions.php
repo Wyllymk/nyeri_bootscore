@@ -20,8 +20,8 @@ if (!function_exists('register_navwalker')) :
   function register_navwalker() {
     require_once('inc/class-bootstrap-5-navwalker.php');
     // Register Menus
-    register_nav_menu('main-menu', 'Main menu');
-    register_nav_menu('footer-menu', 'Footer menu');
+    register_nav_menu('left-menu', 'Left menu');
+    register_nav_menu('right-menu', 'Right menu');
   }
 endif;
 add_action('after_setup_theme', 'register_navwalker');

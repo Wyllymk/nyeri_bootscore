@@ -39,15 +39,9 @@
 
   <header id="masthead" class="site-header">
 
-    <div class="fixed-top bg-body-tertiary">
+    <div class="sticky-top bg-body-tertiary">
 
-      <nav id="nav-main" class="navbar navbar-expand-lg">
-
-        <div class="<?= bootscore_container_class(); ?>">
-
-          <!-- Navbar Brand -->
-          <a class="navbar-brand xs d-md-none" href="<?= esc_url(home_url()); ?>"><img src="<?= esc_url(get_stylesheet_directory_uri()); ?>/img/logo/logo-sm.svg" alt="logo" class="logo xs"></a>
-          <a class="navbar-brand md d-none d-md-block" href="<?= esc_url(home_url()); ?>"><img src="<?= esc_url(get_stylesheet_directory_uri()); ?>/img/logo/logo.svg" alt="logo" class="logo md"></a>
+      <nav id="nav-main" class="navbar navbar-expand-lg" role="navigation">
 
           <!-- Offcanvas Navbar -->
           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas-navbar">
@@ -60,16 +54,31 @@
               <!-- Bootstrap 5 Nav Walker Main Menu -->
               <?php
               wp_nav_menu(array(
-                'theme_location' => 'main-menu',
+                'theme_location' => 'left-menu',
                 'container'      => false,
                 'menu_class'     => '',
                 'fallback_cb'    => '__return_false',
-                'items_wrap'     => '<ul id="bootscore-navbar" class="navbar-nav ms-auto %2$s">%3$s</ul>',
+                'items_wrap'     => '<ul id="bootscore-navbar" class="navbar-nav h5 fw-bold text-uppercase ms-auto %2$s">%3$s</ul>',
                 'depth'          => 2,
                 'walker'         => new bootstrap_5_wp_nav_menu_walker()
               ));
               ?>
 
+              <!-- Navbar Brand -->
+              <a class="navbar-brand xs d-md-none" href="<?= esc_url(home_url()); ?>"><img src="<?= esc_url(get_stylesheet_directory_uri()); ?>/img/logo/nyeri_club.png" class="logo xs"></a>
+              <a class="navbar-brand md d-none d-md-block" href="<?= esc_url(home_url()); ?>"><img src="<?= esc_url(get_stylesheet_directory_uri()); ?>/img/logo/nyeri_club.png" class="" alt="Nyeri Club"></a>
+
+              <?php
+              wp_nav_menu(array(
+                'theme_location' => 'right-menu',
+                'container'      => false,
+                'menu_class'     => '',
+                'fallback_cb'    => '__return_false',
+                'items_wrap'     => '<ul id="bootscore-navbar" class="navbar-nav h5 fw-bold text-uppercase me-auto %2$s">%3$s</ul>',
+                'depth'          => 2,
+                'walker'         => new bootstrap_5_wp_nav_menu_walker()
+              ));
+              ?>
               <!-- Top Nav 2 Widget -->
               <?php if (is_active_sidebar('top-nav-2')) : ?>
                 <?php dynamic_sidebar('top-nav-2'); ?>
@@ -99,8 +108,6 @@
             </button>
 
           </div><!-- .header-actions -->
-
-        </div><!-- bootscore_container_class(); -->
 
       </nav><!-- .navbar -->
 
